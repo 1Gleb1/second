@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEO-Оптимизация</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/ser-it.css" />
+  </head>
+  <script>
+    let modal = document.getElementById("myModal");
+    let btn = document.getElementById("myBtn");
+    let span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function (e) {
+      e.preventDefault();
+      modal.style.display = "wrapp";
+    };
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+  <body>
+    <header class="section-hero-about">
+      <div class="wrapp">
+        <div class="sub_menu">
+          <p>Мы знаем как работают в Европе!</p>
+          <a href="tel:+79185570418">+79185570418</a>
+          <a href>info@eskulap.me</a>
+        </div>
+        <div class="menu">
+          <div class="logo">
+            <a href="">
+              <img
+                src="http://eskulap.me/wp-content/uploads/2016/01/logoe1-150x150.png"
+                width="60"
+                height="60px"
+              />
+            </a>
+          </div>
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/pages/about.html">О нас</a></li>
+            <li><a href="/pages/ser-it.html">Услуги</a></li>
+          </ul>
+          <div></div>
+        </div>
+      </div>
+    </header>
+    <main class="main-section">
+      <div class="section-ser-it wrapp">
+        <div class="left">
+          <img
+            src="https://eskulap.me/wp-content/uploads/2015/02/IT-АУТСОРСИНГ.png"
+            alt=""
+            style="border: 1px solid gray; border-radius: 999px"
+            width="210"
+          />
+        </div>
+        <div class="center">
+          <div class="center__head">
+            <h2>Продвижение, SEO-оптимизация</h2>
+            <p class="text-red">Все услуги будут оказаны в полном объеме!</p>
+          </div>
+          <p>
+            Продвижение, или SEO-оптимизация, сайта необходимы компании, если
+            она желает не только ненадолго увлечь потенциального клиента, но еще
+            и не терять его внимание на протяжении длительного времени.
+            Созданный сайт без должной поддержки рано или поздно опустится в
+            ТОП-10 поисковых запросов, дальше которого, как известно, мало кто
+            заглядывает. Популярным сайт остается благодаря стараниям
+            веб-специалистов, которые:
+          </p>
+          <ul>
+            <li>анализируют позиции сайта</li>
+            <li>
+              оптимизируют контент (наполнение), делают его более релевантным,
+              полезным с точки зрения клиентов
+            </li>
+            <li>
+              раскручивают сайт при помощи контекстной рекламы, продающих
+              статей, выявления ключевых запросов
+            </li>
+            <li>контролируют доступную видимость сайта и т.п.</li>
+          </ul>
+          <p>
+            Для успешного продвижения сайта в интернете нужны хорошие
+            веб-мастера, знающие свое дело на «отлично», и специалисты «Эскулап
+            ИТ-Сервис» как раз из этой категории. Мы готовы взяться за
+            оптимизацию сайта, как созданного нами, так и уже давно «живущего»
+            на просторах всемирной паутины, и превратить его в неиссякаемый
+            источник дохода Вашей фирмы.
+          </p>
+        </div>
+        <div class="right">
+          <form class="form">
+            <div class="form-head">
+              <h3>Написать нам</h3>
+              <img
+                src="http://eskulap.me/wp-content/uploads/2016/01/logoe1-150x150.png"
+              />
+            </div>
+            <ul class="form-style-1 form-field-long">
+              <li>
+                <div class="form-input">
+                  <input type="text" placeholder="Email address" id="email" />
+                  <label for="name">Имя</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-input">
+                  <input type="email" placeholder="Email address" id="email" />
+                  <label for="email">Email </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-input">
+                  <input type="text" placeholder="Email address" id="email" />
+                  <label for="text">Телефон</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-checkbox">
+                  <input type="checkbox" />
+                  <label>Cогласие на обработку персональных данных</label>
+                </div>
+              </li>
+              <li class="submit">
+                <input type="submit" value="Отправить" />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

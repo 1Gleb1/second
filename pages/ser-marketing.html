@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Маркетинг</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/ser-it.css" />
+  </head>
+  <body>
+    <header class="section-hero-about">
+      <div class="wrapp">
+        <div class="sub_menu">
+          <p>Мы знаем как работают в Европе!</p>
+          <a href="tel:+79185570418">+79185570418</a>
+          <a href>info@eskulap.me</a>
+        </div>
+        <div class="menu">
+          <div class="logo">
+            <a href="">
+              <img
+                src="http://eskulap.me/wp-content/uploads/2016/01/logoe1-150x150.png"
+                width="60"
+                height="60px"
+              />
+            </a>
+          </div>
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/pages/about.html">О нас</a></li>
+            <li><a href="/pages/ser-it.html">Услуги</a></li>
+          </ul>
+          <div></div>
+        </div>
+      </div>
+    </header>
+    <main class="main-section">
+      <div class="section-ser-it wrapp">
+        <div class="left">
+          <img
+            src="https://eskulap.me/wp-content/uploads/2015/02/%D0%98%D0%9D%D0%A2%D0%95%D0%A0%D0%9D%D0%95%D0%A2-%D0%9C%D0%90%D0%A0%D0%9A%D0%95%D0%A2%D0%98%D0%9D%D0%93.png"
+            alt=""
+            style="border: 1px solid gray; border-radius: 999px"
+            width="210"
+          />
+        </div>
+        <div class="center">
+          <div class="center__head">
+            <h2>Интернет-маркетинг</h2>
+            <p class="text-red">Все услуги будут оказаны в полном объеме!</p>
+          </div>
+          <p>
+            Интернет-маркетинг – это PR-кампания в интернете, целью которой
+            является получение максимальной отдачи от целевой аудитории, то есть
+            выгоды за счет увеличения спроса на услугу или продукт. Как правило,
+            полный пакет интернет-маркетинга заказывают крупные фирмы для
+            поддержания своего имиджа. Прослеживается ясная связь между
+            интернет-продвижением и ростом доходов компании. Итак,
+            интернет-маркетинг включает в себя следующие манипуляции:
+          </p>
+          <ul>
+            <li>поисковую оптимизацию сайта</li>
+            <li>контекстную рекламу</li>
+            <li>медийную рекламу на СМК (средствах массовой коммуникации)</li>
+            <li>работу с социальными сетями</li>
+            <li>
+              размещение статей о деятельности и услугах организации во всех
+              информационных источниках (СМИ, интернете) и т.п.
+            </li>
+          </ul>
+          <p>
+            Грамотная организация интернет-маркетинга – это задача, посильная
+            только для настоящих профессионалов, которые и работают у нас в
+            штате. Асы «Эскулап ИТ-Сервис» проверили уже ни одну PR-кампанию, и
+            точно знаем, что предложить для продвижения именно Вашей организации
+            на интернет-прострах.
+          </p>
+        </div>
+        <div class="right">
+          <form class="form">
+            <div class="form-head">
+              <h3>Написать нам</h3>
+              <img
+                src="http://eskulap.me/wp-content/uploads/2016/01/logoe1-150x150.png"
+              />
+            </div>
+            <ul class="form-style-1 form-field-long">
+              <li>
+                <div class="form-input">
+                  <input type="text" placeholder="Email address" id="email" />
+                  <label for="name">Имя</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-input">
+                  <input type="email" placeholder="Email address" id="email" />
+                  <label for="email">Email </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-input">
+                  <input type="text" placeholder="Email address" id="email" />
+                  <label for="text">Телефон</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-checkbox">
+                  <input type="checkbox" />
+                  <label>Cогласие на обработку персональных данных</label>
+                </div>
+              </li>
+              <li class="submit">
+                <input id="myBtn" type="submit" value="Отправить" />
+              </li>
+            </ul>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Данные отправлены</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script defer>
+    let modal = document.getElementById("myModal");
+    let btn = document.getElementById("myBtn");
+    let span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function (e) {
+      e.preventDefault();
+      modal.style.display = "wrapp";
+    };
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+</html>
